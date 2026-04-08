@@ -1,0 +1,12 @@
+func: AddPointMultiple memid=10048311 args=((12, 1, None),)
+Breaklines dir: ['AddBreaklineFromFile', 'AddNonDestructiveBreakline', 'AddProximityBreakline', 'AddRef', 'AddStandardBreakline', 'AddStandardBreaklineWithSuppAndWeed', 'AddWallBreakline', 'AddWallBreaklineWithSuppAndWeed', 'Count', 'GetIDsOfNames', 'GetTypeInfo', 'GetTypeInfoCount', 'Invoke', 'Item', 'QueryInterface', 'Release', 'Remove']
+polyline: 9E5E
+AddPointMultiple array FAIL: Exception occurred.
+AddPointMultiple tuple FAIL: Exception occurred.
+AddPointMultiple list FAIL: Exception occurred.
+AddPointMultiple tuple FAIL: Exception occurred.
+Breaklines.Add(5) err: ('<unknown>.Add',)
+Breaklines.Add(3) err: ('<unknown>.Add',)
+Breaklines.Add(2) err: ('<unknown>.Add',)
+Breaklines.Add(1) err: ('<unknown>.Add',)
+Erased

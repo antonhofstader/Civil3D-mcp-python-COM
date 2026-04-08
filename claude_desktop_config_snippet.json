@@ -1,0 +1,25 @@
+{
+  "_comment": "Add the block below to your claude_desktop_config.json under 'mcpServers'.",
+  "_location_windows": "%APPDATA%\\Claude\\claude_desktop_config.json",
+
+  "mcpServers": {
+    "civil3d-mcp": {
+      "command": "python",
+      "args": ["-m", "civil3d_mcp.server"],
+      "cwd": "C:\\path\\to\\civil3d-mcp-python",
+      "env": {
+        "PYTHONPATH": "C:\\path\\to\\civil3d-mcp-python\\src",
+        "CIVIL3D_BIN_PATH": "C:\\Program Files\\Autodesk\\AutoCAD 2024"
+      }
+    }
+  },
+
+  "_alternative_after_pip_install": {
+    "_comment": "If you installed with 'pip install -e .', use this instead:",
+    "mcpServers": {
+      "civil3d-mcp": {
+        "command": "civil3d-mcp"
+      }
+    }
+  }
+}

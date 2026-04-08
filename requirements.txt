@@ -1,0 +1,17 @@
+# civil3d-mcp  –  Python 3.11 / Windows
+# Install with:  pip install -r requirements.txt
+
+# MCP framework
+fastmcp>=0.4.0
+
+# Windows COM automation
+pywin32>=306
+
+# .NET / managed assembly bridge  (Python ↔ CLR)
+pythonnet>=3.0.3
+
+# Data validation
+pydantic>=2.0
+
+# ── Dev / test (optional) ────────────────────────────────────────────────────
+# pip install -r requirements.txt -r requirements-dev.txt

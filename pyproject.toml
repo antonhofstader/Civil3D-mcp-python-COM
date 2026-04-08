@@ -1,0 +1,47 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "civil3d-mcp"
+version = "1.0.0"
+description = "FastMCP server for Autodesk Civil 3D via COM automation (pythonnet + win32com)"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+keywords = ["civil3d", "autodesk", "mcp", "fastmcp", "com", "automation", "bim"]
+
+dependencies = [
+    "fastmcp>=0.4.0",
+    "pythonnet>=3.0.3",
+    "pywin32>=306",
+    "pydantic>=2.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "pytest-asyncio>=0.23",
+    "black",
+    "ruff",
+    "mypy",
+]
+
+[project.scripts]
+civil3d-mcp = "civil3d_mcp.server:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.mypy]
+python_version = "3.11"
+warn_return_any = true
+ignore_missing_imports = true
