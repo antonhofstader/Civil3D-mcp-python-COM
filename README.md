@@ -93,7 +93,7 @@ Or, if you prefer to run without installing the package:
       "cwd": "C:\\path\\to\\civil3d-mcp-python",
       "env": {
         "PYTHONPATH": "C:\\path\\to\\civil3d-mcp-python\\src",
-        "CIVIL3D_BIN_PATH": "C:\\Program Files\\Autodesk\\AutoCAD 2024"
+        "CIVIL3D_BIN_PATH": "C:\\Program Files\\Autodesk\\AutoCAD 2026"
       }
     }
   }
