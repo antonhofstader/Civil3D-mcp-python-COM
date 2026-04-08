@@ -1,4 +1,4 @@
-# Architecture Overview — civil3d-mcp
+# Architecture Overview — civil3d-mcp - Non-Official from Autodesk. Only research
 
 > **civil3d-mcp** is a [Model Context Protocol](https://modelcontextprotocol.io) server
 > written in Python 3.11 that lets Claude Desktop drive Autodesk Civil 3D directly
