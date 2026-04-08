@@ -1,4 +1,4 @@
-# civil3d-mcp
+# civil3d-mcp Non-Official from Autodesk. Only research
 
 AI-powered Autodesk Civil 3D automation via **FastMCP** (Python 3.11).  
 Connects Claude directly to a running Civil 3D instance using **COM automation** — no companion plugin required.
