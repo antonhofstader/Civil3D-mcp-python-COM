@@ -2,7 +2,8 @@
 
 > **civil3d-mcp** is a [Model Context Protocol](https://modelcontextprotocol.io) server
 > written in Python 3.11 that lets Claude Desktop drive Autodesk Civil 3D directly
-> via Windows COM automation — no companion plugin, no TCP socket, no extra process.
+> via Windows COM automation — no companion plugin, no TCP socket, no extra process. Non-Official from Autodesk. Only research
+
 
 ---
 
