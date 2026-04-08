@@ -36,7 +36,7 @@ COM out-parameter handling, error strategy, and the Civil 3D object model refere
 |---|---|
 | Windows 10/11 | COM automation is Windows-only |
 | Python 3.11 | 64-bit recommended |
-| Autodesk Civil 3D | 2023, 2024 or 2025 — must be **open with a drawing loaded** |
+| Autodesk Civil 3D | 2023, 2024, 2025 or 2026 — must be **open with a drawing loaded** |
 | pip packages | `fastmcp`, `pythonnet`, `pywin32`, `pydantic` |
 
 ---
