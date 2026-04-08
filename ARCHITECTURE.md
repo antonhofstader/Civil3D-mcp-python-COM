@@ -204,7 +204,7 @@ alignment geometry may be limited.
 | 2 | `list_civil_object_types` | tools_drawing | `doc.ModelSpace`, named collections |
 | 3 | `get_selected_objects_info` | tools_drawing | `doc.SelectionSets` |
 | 4 | `create_cogo_point` | tools_cogo | `doc.CogoPoints.Add()` |
-| 5 | `list_cogo_points` | tools_cogo | `doc.CogoPoints` iterator |
+| 5 | `list_cogo_points` | tools_cogo | `doc.CogoPoints` iterator WIP!!!!|
 | 6 | `delete_cogo_point` | tools_cogo | `doc.CogoPoints.Delete()` |
 | 7 | `create_line` | tools_lines | `doc.ModelSpace.AddLine()` |
 | 8 | `create_polyline` | tools_lines | `doc.ModelSpace.Add3DPoly()` |
