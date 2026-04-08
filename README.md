@@ -123,7 +123,7 @@ Restart Claude Desktop. The **hammer icon** (🔨) in the toolbar confirms the s
 ### COGO Points
 | Tool | Description |
 |---|---|
-| `create_cogo_point` | Create a point at (northing, easting, elevation) |
+| `create_cogo_point` | Create a point at (northing, easting, elevation) STILL WIP!!!!|
 | `list_cogo_points` | List all COGO points |
 | `delete_cogo_point` | Delete a point by point number |
 
